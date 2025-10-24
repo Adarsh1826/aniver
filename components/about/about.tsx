@@ -59,16 +59,15 @@ export default function AboutPage() {
     >
       <div ref={contentRef} className="max-w-4xl text-center">
         <h1 className="text-5xl md:text-6xl font-extrabold mb-6 tracking-wide">
-          About the Savage Multi-Verse
+          About Us
         </h1>
         <p className="text-lg md:text-xl text-gray-400 mb-4">
-          We build futuristic, fully animated, 3D-optimized websites with savage
-          UI/UX. No fluff, only tech, neon, and interactivity.
+          We started our journey with a simple observation: quality tech development shouldn’t cost a fortune. As young entrepreneurs ourselves, we’ve felt the frustration of inflated quotes and slow delivery timelines. That’s why we built a team of passionate developers who genuinely enjoy the work—not just for the paycheck, but for the thrill of building something impactful.
         </p>
-        <p className="text-lg md:text-xl text-gray-400">
+        {/* <p className="text-lg md:text-xl text-gray-400">
           Scroll through, explore neon-lit floating elements, and watch as the
           web bends to the digital experience we craft.
-        </p>
+        </p> */}
       </div>
     </div>
   );
