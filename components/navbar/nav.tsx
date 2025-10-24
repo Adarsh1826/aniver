@@ -31,7 +31,7 @@ export default function TopNavBar() {
     return (
         <div className="overflow-hidden">
             <div className="flex justify-between p-5 relative">
-                <button ref={logoRef} className="text-5xl md:text-2xl font-extrabold tracking-wide">Multi-Verse</button>
+                <button ref={logoRef} className="text-2xl md:text-1xl font-extrabold tracking-wide">Multi-Verse</button>
 
                 <div className="hidden md:flex space-x-5" >
                     <a href="#about" className="nav-link">
