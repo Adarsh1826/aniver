@@ -167,10 +167,12 @@ export function Home() {
                 <p className="text-xl md:text-2xl text-gray-400 max-w-xl mx-auto">
                     Enter a futuristic, fully animated 3D world. Neon lights, floating elements, and savage design.
                 </p>
-                <button
-                    className="mt-4 px-6 py-3 rounded-full text-white font-bold transition-all duration-300"
+                     <button
+                    className="mt-4 px-6 py-3 rounded-full border-2 border-grey-400 text-white
+             font-bold transition-all duration-300  hover:text-white"
                     ref={exploreRef}
                     onClick={custom}
+
                 >
                     Explore Now
                 </button>
