@@ -69,16 +69,7 @@ export function Home() {
     });
 
     // Scroll-triggered backflip
-    gsap.to(avatar, {
-        rotationX: "+=360", // Backflip along X-axis
-        scrollTrigger: {
-            trigger: heroRef.current,
-            start: "top top",
-            end: "bottom top",
-            scrub: true, // smoothly animate with scroll
-        },
-        ease: "power1.inOut"
-    });
+    
 }, []);
 
 
